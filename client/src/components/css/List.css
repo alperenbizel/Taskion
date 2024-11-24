@@ -1,0 +1,34 @@
+/* src/css/List.css */
+ul {
+  padding: 0;
+  list-style: none; /* Madde işaretlerini kaldır */
+  background-color: #333; /* Koyu gri arka plan */
+  border-radius: 8px; /* Yuvarlak köşeler */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Gölgeli efekt */
+}
+
+li {
+  display: flex; /* Yatay hizalama */
+  justify-content: space-between; /* Aralık bırak */
+  align-items: center; /* Dikey hizalama */
+  padding: 10px 15px;
+  color: #fff; /* Beyaz yazı rengi */
+  border-bottom: 1px solid #444; /* Alt çizgi */
+}
+
+li:last-child {
+  border-bottom: none; /* Son elemanın altında çizgi yok */
+}
+
+button {
+  background-color: #e63946; /* Kırmızı arka plan */
+  color: #fff; /* Beyaz yazı rengi */
+  border: none;
+  border-radius: 5px; /* Yuvarlak köşeler */
+  padding: 5px 10px;
+  cursor: pointer; /* İmleci el yap */
+}
+
+button:hover {
+  background-color: #d62839; /* Üzerine gelindiğinde daha koyu kırmızı */
+}

@@ -1,0 +1,65 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Öğeleri aralarındaki boşlukla yerleştirir */
+  background-color: #007bff; /* Header arka plan rengi mavi */
+  padding: 10px 20px; /* Header içindeki boşluk */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.header-container .logo {
+  font-size: 1.8em; /* Logo yazı boyutu */
+  font-weight: bold; /* Kalın yazı */
+  color: #ffffff; /* Yazı rengi beyaz */
+  text-decoration: none; /* Alt çizgi kaldır */
+  margin-right: auto; /* Logo ile bağlantılar arasında boşluk */
+}
+
+.header-container .nav {
+  display: flex; /* Bağlantıları yan yana yerleştir */
+  align-items: center; /* Dikey olarak ortala */
+}
+
+.nav ul {
+  list-style: none; /* Madde işaretlerini kaldır */
+  padding: 0; /* Padding sıfırlama */
+  margin: 0; /* Margin sıfırlama */
+  display: flex; /* Esnek kutu modelini kullan */
+}
+
+.nav ul li {
+  margin: 0 20px; /* Öğeler arası boşluk */
+}
+
+.nav a {
+  text-decoration: none; /* Alt çizgiyi kaldır */
+  color: #ffffff; /* Link rengi beyaz */
+  font-size: 1em; /* Yazı boyutu */
+  transition: color 0.3s; /* Renk değişimi geçişi */
+}
+
+.nav a:hover {
+  color: #d0e1f9; /* Hover durumunda renk değişimi */
+}
+
+.button-container {
+  display: flex; /* Butonları yatay olarak yerleştir */
+  align-items: center; /* Dikey olarak ortala */
+}
+
+.header-button {
+  margin-left: 10px; /* Butonlar arası boşluk */
+  padding: 8px 12px; /* Buton içindeki boşluk */
+  background-color: #0056b3; /* Buton arka plan rengi */
+  color: white; /* Buton yazı rengi */
+  border: none; /* Kenarlık yok */
+  border-radius: 4px; /* Yuvarlak kenar */
+  cursor: pointer; /* İşaretçi işareti değişimi */
+  transition: background-color 0.3s; /* Arka plan renginin geçişi */
+}
+
+.header-button:hover {
+  background-color: #003d7a; /* Hover durumunda arka plan rengi */
+}
